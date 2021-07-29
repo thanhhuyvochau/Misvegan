@@ -1,0 +1,136 @@
+.body-bg {
+    background: url(../img/yks-Vptutho.png) center;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.navigation {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 20vh;
+    color: white;
+    margin-bottom: 10%;
+}
+
+.navigation h2 {
+    font-size: 7.2rem;
+    font-weight: 600;
+}
+
+.navigation a,
+.navigation span {
+    color: white;
+    text-decoration: none;
+    font-size: 3.6rem;
+    font-weight: 400;
+    margin: 0 1rem;
+}
+
+.intro-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-1,
+.intro-2,
+.intro-3 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 400;
+    max-width: 794px;
+}
+
+.intro-2 {
+    text-align: center;
+    max-width: 954px;
+}
+
+.intro-1 h2,
+.intro-2 h2,
+.intro-3 h2 {
+    margin: 5rem 0;
+    color: #FF3364;
+    font-size: 6.4rem;
+    font-weight: 700;
+}
+
+.intro-1 h2 {
+    margin-left: 20%;
+}
+
+.intro-2 h2 {
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.intro-3 {
+    max-width: 100%;
+    text-align: center;
+}
+
+.intro-3 p {
+    margin: 4rem auto;
+}
+
+.btn-concept {
+    margin: 0 auto;
+    border: 1px solid #FFFFFF;
+    padding: 1rem 7rem;
+    display: table;
+    margin-top: 4.5rem;
+}
+
+.btn-concept a {
+    color: white;
+    text-decoration: none;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.logo-wrapper-bt {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 159px;
+    height: 159px;
+    background: white;
+    border-radius: 50%;
+    border: solid 3px #94B289;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: auto;
+    object-fit: scale-down;
+}
+
+.empty {
+    height: 50rem;
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 7px
+    }
+    main {
+        padding: 0 2rem;
+    }
+}
+
+@media(max-width:420px) {
+    html {
+        font-size: 5px
+    }
+    .navigation h2 {
+        font-size: 6.2rem
+    }
+}

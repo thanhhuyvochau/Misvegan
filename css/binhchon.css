@@ -1,0 +1,116 @@
+.navigation {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 13vh;
+    color: white;
+    margin-bottom: 10%;
+}
+
+.banner {
+    background: url("../img/Rectangle\ 72.png") center no-repeat;
+    background-size: cover;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.w-80 {
+    max-width: 80%;
+}
+
+.navigation h2 {
+    font-size: 7.2rem;
+    font-weight: 600;
+}
+
+.navigation a,
+.navigation span {
+    color: black;
+    text-decoration: none;
+    font-size: 3.6rem;
+    font-weight: 400;
+    margin: 0 1rem;
+    color: white;
+}
+
+section.container {
+    max-width: 80%;
+}
+
+.navigation-box {
+    padding-bottom: 4.5rem;
+    padding-top: 2rem;
+}
+
+.player-card {
+    padding: 2rem
+}
+
+.player-card img {
+    width: 100%;
+}
+
+.info-action-wrapper {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-detail {
+    line-height: 2.6rem;
+    font-size: 2.6rem;
+}
+
+.info-detail p {
+    margin: 0;
+}
+
+.action a {
+    display: inline-block;
+    width: 4.5rem;
+    height: 4.5rem;
+    color: red;
+}
+
+.action svg {
+    width: 100%;
+    height: 100%;
+}
+
+.title h2 {
+    font-size: 7.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.search-per {
+    margin-bottom: 1.5rem;
+    padding: 0 2rem;
+}
+
+.search-per svg {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 1rem;
+    transform: translateY(35%);
+}
+
+.search-per input {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    padding: 0.9rem 2rem 1rem 1rem;
+}
+
+.bg-player {
+    padding: 0;
+    background: url(../img/CMdQcxsWZE0.png) no-repeat center;
+    background-size: cover;
+}
+
+@media(max-width:768px) {
+    .navigation h2 {
+        font-size: 6.2rem
+    }
+}

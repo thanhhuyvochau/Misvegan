@@ -1,0 +1,276 @@
+.navigation {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 13vh;
+    color: black;
+    margin-bottom: 4%;
+}
+
+.banner {
+    background: url("../img/eu6dbu5KJs0.png") center no-repeat;
+    background-size: cover;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.w-80 {
+    max-width: 80%;
+}
+
+.navigation h2 {
+    font-size: 7.2rem;
+    font-weight: 600;
+}
+
+.navigation a,
+.navigation span {
+    color: black;
+    text-decoration: none;
+    font-size: 3.6rem;
+    font-weight: 400;
+    margin: 0 1rem;
+    color: black;
+}
+
+section.container {
+    max-width: 80%;
+}
+
+.navigation-box {
+    padding-bottom: 4.5rem;
+    padding-top: 2rem;
+}
+
+.seating-chart {
+    position: relative;
+}
+
+.seating-chart img {
+    width: 100%;
+}
+
+#left-down,
+#right-down {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.pic-name {
+    position: absolute;
+    font-size: 7.2rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+input[type='radio']:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: -5px;
+    left: -6px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: -5px;
+    left: -6px;
+    position: relative;
+    background-color: black;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.num-money {
+    display: inline-block;
+    font-size: 5rem;
+    line-height: 2.5rem;
+    color: white;
+    font-weight: 700;
+    background: rgba(56, 87, 44, 0.49);
+    padding: 2.5rem 6rem;
+    margin-left: 22%;
+    margin-bottom: 5rem;
+}
+
+.payment {
+    padding-top: 10rem;
+}
+
+.payment p {
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.payment label {
+    font-size: 2.4rem;
+    margin-left: 2rem;
+}
+
+.payment ul {
+    list-style: none;
+    margin-left: 22%;
+    margin-top: 2.5rem;
+    margin-bottom: 6rem;
+}
+
+.payment ul li {
+    margin-bottom: 2rem;
+}
+
+.form-wrapper h3 {
+    font-size: 3.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    margin: 12rem 0 7rem 0;
+}
+
+.form-infor label {
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    display: inline-block;
+    width: 30%;
+    margin: 0!important;
+}
+
+.form-infor input[type="text"] {
+    padding: 1rem 0;
+    width: 60%;
+    line-height: 1;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.form-infor select {
+    padding: 1rem 3rem;
+    line-height: 1;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+}
+
+.form-infor select:focus {
+    padding: 1rem 3rem;
+    line-height: 1;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+}
+
+.form-infor input[type="text"]:focus {
+    padding: 1rem 0;
+    width: 60%;
+    line-height: 1;
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+}
+
+.field-wrap {
+    margin-bottom: 9rem;
+}
+
+.form-infor form {
+    margin: 0;
+    padding: 0;
+}
+
+.s1,
+.s2 {
+    padding: 1rem;
+}
+
+.s1,
+.s2 input,
+.note {
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+
+.ser-box {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ser-box input {
+    width: auto!important;
+    padding: 1.5rem 1rem!important;
+    margin-right: 4rem;
+    border: solid 1px black!important;
+}
+
+.ser-box span {
+    display: inline-block;
+    padding: 2.3rem 8.5rem;
+    color: white;
+    background-color: black;
+    font-size: 4.8rem;
+}
+
+.note {
+    width: 100%;
+    padding: 2rem 2rem 24rem 2rem;
+    transform: translateY(10px);
+}
+
+#submit {
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: white;
+    background: #8DAD81;
+    line-height: 1!important;
+    padding: 2.7rem 6rem 1.7rem 6rem;
+}
+
+@media (max-width:1024px) {
+    .ser-box span {
+        margin-top: 2rem;
+        /* padding: 2.3rem 8.7rem; */
+    }
+}
+
+@media (max-width:768px) {
+    .payment ul {
+        margin-left: 0;
+    }
+    .navigation h2 {
+        font-size: 6.2rem
+    }
+    .ser-box span {
+        margin-top: 2rem;
+        padding: 2.3rem 8.7rem;
+    }
+    .w-80 {
+        max-width: 95%;
+    }
+    .note {
+        transform: translateY(15px);
+    }
+}
+
+@media(max-width:480px) {
+    .pic-name {
+        font-size: 3.2rem;
+    }
+}

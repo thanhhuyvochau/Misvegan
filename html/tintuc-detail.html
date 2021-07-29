@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tin Tức</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <!---->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/tintuc-detail.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.theme.default.min.css">
+</head>
+
+<body>
+    <header class="container">
+        <div class="row">
+            <div class="logo-wrapper col-md-3  col-6">
+                <div class="cirle-wrap">
+                    <img src="../img/logo.png" alt="">
+                </div>
+
+            </div>
+            <div class="menu-wrapper col-md-9">
+                <div class="menu-link">
+                    <a href="home.html">TRANG CHỦ</a>
+                </div>
+                <div class="menu-link collapse-evr">
+                    <a href="" data-toggle="collapse" data-target=".collapse-box">MISSVEGAN</a>
+                    <div class="collapse-box collapse">
+                        <a href="donvitochuc.html" class="link-collapsed">Đơn vị tổ chức</a>
+                        <a href="dangki.html" class="link-collapsed">Đăng ký dự thi</a>
+                        <a href="giamkhao.html" class="link-collapsed">Ban giám khảo</a>
+                        <a href="thele.html" class="link-collapsed">Thể lệ</a>
+                        <a href="thele.html" class="link-collapsed">Lịch thi</a>
+                        <a href="giaithuong.html" class="link-collapsed">Giải thưởng</a>
+                    </div>
+                </div>
+                <div class="menu-link">
+                    <a href="binhchon.html">ỨNG VIÊN</a>
+                </div>
+                <div class="menu-link">
+                    <a href="tintuc.html">TIN TỨC</a>
+                </div>
+                <div class="menu-link">
+                    <a href="datve.html">ĐẶT VÉ</a>
+                </div>
+                <div class="menu-link">
+                    <a href="doitac.html">ĐỐI TÁC</a>
+                </div>
+                <div class="menu-link multil-links">
+                    <div class="search-wrapper">
+                        <button id="search-trigger" data-toggle="collapse" data-target=".search-box" href="">
+                            <i data-feather="search"></i>
+                    </button>
+                        <div class="search-box collapse">
+                            <form action="">
+                                <input type="text" placeholder="Search">
+                            </form>
+                        </div>
+                    </div>
+
+                    <a href="">
+                        <img src="../img/country1-lg.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../img/country2-lg.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+            <div class="mobile toggle-button-mb">
+                <a href="" style="display: inline-block;">
+                    <i data-feather="menu"></i>
+                </a>
+
+            </div>
+        </div>
+        <div class="mobile mobile-links">
+            <ul>
+                <li>
+                    <hr style="width: 100%; margin: 1.5rem 0;">
+                </li>
+                <li>
+                    <div class="menu-link">
+                        <a href="home.html">TRANG CHỦ</a>
+                    </div>
+                </li>
+                <li>
+                    <hr style="width: 100%; margin: 1.5rem 0;">
+                </li>
+                <li>
+                    <div class="menu-link multil-links-mb">
+                        <a href="">MISSVEGAN</a>
+                    </div>
+                    <div class="sub-menu-wrapper">
+                        <div class="sub-menu-mb">
+                            <a href="donvitochuc.html" class="link-collapsed">Đơn vị tổ chức</a>
+                            <a href="dangki.html" class="link-collapsed">Đăng ký dự thi</a>
+                            <a href="giamkhao.html" class="link-collapsed">Ban giám khảo</a>
+                            <a href="thele.html" class="link-collapsed">Thể lệ</a>
+                            <a href="thele.html" class="link-collapsed">Lịch thi</a>
+                            <a href="giaithuong.html" class="link-collapsed">Giải thưởng</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <hr style="width: 100%; margin: 1.5rem 0;">
+                </li>
+                <li>
+                    <div class="menu-link">
+                        <a href="binhchon.html">ỨNG VIÊN</a>
+                    </div>
+                </li>
+                <li>
+                    <hr style="width: 100%; margin: 1.5rem 0;">
+                </li>
+                <li>
+                    <div class="menu-link">
+                        <a href="tintuc.html">TIN TỨC</a>
+                    </div>
+                </li>
+                <li>
+                    <hr style="width: 100%; margin: 1.5rem 0;">
+                </li>
+                <li>
+                    <div class="menu-link">
+                        <a href="datve.html">ĐẶT VÉ</a>
+                    </div>
+                </li>
+                <li>
+                    <hr style="width: 100%; margin: 1.5rem 0;">
+                </li>
+                <li>
+                    <div class="menu-link">
+                        <a href="doitac.html">ĐỐI TÁC</a>
+                    </div>
+                </li>
+                <li>
+                    <hr style="width: 100%; margin: 1.5rem 0;">
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <section class="navigation w-80">
+                <h2>MISSVEGAN</h2>
+                <div class="navigation-box">
+                    <a href="home.html">TRANG CHỦ</a>
+                    <span> >></span>
+                    <a href="">Missvegan</a>
+                    <span> >></span>
+                    <a href="">Đơn vị tổ chức</a>
+                </div>
+            </section>
+        </section>
+        <section class="rule-news-wrapper container">
+            <div class="row">
+                <div class="col-lg-3 news-container">
+                    <form action="" id="search-news">
+                        <input type="text" placeholder="Search">
+                    </form>
+                    <div class="news-wrapper">
+                        <h3>Bài đang gần đây</h3>
+                        <div class="news">
+                            <div class="img-news">
+                                <img src="" alt="">
+                            </div>
+                            <div class="newsTitle-times">
+                                <h4><a href="tintuc-detail.html">Cùng hoa hậu Oanh Yến trong trang phục pháp phục của Hoan Hỷ</a></h4>
+                                <p class="date-detail">Jan 11, 2021</p>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <div class="img-news">
+                                <img src="" alt="">
+                            </div>
+                            <div class="newsTitle-times">
+                                <h4><a href="tintuc-detail.html">Cùng hoa hậu Oanh Yến trong trang phục pháp phục của Hoan Hỷ</a></h4>
+                                <p class="date-detail">Jan 11, 2021</p>
+                            </div>
+                        </div>
+
+                        <div class="news">
+                            <div class="img-news">
+                                <img src="" alt="">
+                            </div>
+                            <div class="newsTitle-times">
+                                <h4><a href="tintuc-detail.html">Cùng hoa hậu Oanh Yến trong trang phục pháp phục của Hoan Hỷ</a></h4>
+                                <p class="date-detail">Jan 11, 2021</p>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <div class="img-news">
+                                <img src="" alt="">
+                            </div>
+                            <div class="newsTitle-times">
+                                <h4><a href="tintuc-detail.html">Cùng hoa hậu Oanh Yến trong trang phục pháp phục của Hoan Hỷ</a></h4>
+                                <p class="date-detail">Jan 11, 2021</p>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <div class="img-news">
+                                <img src="" alt="">
+                            </div>
+                            <div class="newsTitle-times">
+                                <h4><a href="tintuc-detail.html">Cùng hoa hậu Oanh Yến trong trang phục pháp phục của Hoan Hỷ</a></h4>
+                                <p class="date-detail">Jan 11, 2021</p>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <div class="img-news">
+                                <img src="" alt="">
+                            </div>
+                            <div class="newsTitle-times">
+                                <h4><a href="tintuc-detail.html">Cùng hoa hậu Oanh Yến trong trang phục pháp phục của Hoan Hỷ</a></h4>
+                                <p class="date-detail">Jan 11, 2021</p>
+                            </div>
+                        </div>
+                        <div class="news">
+                            <div class="img-news">
+                                <img src="" alt="">
+                            </div>
+                            <div class="newsTitle-times">
+                                <h4><a href="tintuc-detail.html">Cùng hoa hậu Oanh Yến trong trang phục pháp phục của Hoan Hỷ</a></h4>
+                                <p class="date-detail">Jan 11, 2021</p>
+                            </div>
+                        </div>
+                        <div class="tag-box">
+                            <p><strong>tags</strong></p>
+                            <div class="tag-container">
+                                <a href="">hoa hậu</a>
+                                <a href="">Vegan</a>
+                                <a href="">Health</a>
+                                <a href="">Natural</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 rule-container">
+                    <div class="brief-box">
+                        <h3>Hoa hậu Khánh Vân cuối cùng đã hoàn thành 21 ngày cách ly hậu Miss Universe 2020, tung bộ ảnh kỷ niệm mà visual ấn tượng quá</h3>
+                        <div class="time-box">
+                            <span>
+                                <i data-feather="clock"></i>
+                            </span>
+                            <span>14:20 30/06/2021</span>
+                        </div>
+
+                    </div>
+                    <div class="content-txt">
+                        <p>Sau khi thực hiện đúng quy định của Bộ Y tế về phòng, chống dịch Covid-19, Khánh Vân liền hào hứng cập nhật loạt ảnh mới để thông báo tin vui với người hâm mộ.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Tin liên quan</p>
+                            </li>
+                            <li>
+                                <p>Tin liên quan</p>
+                            </li>
+                        </ul>
+                        <p>Sau khi hoàn thành hành trình chinh chiến rực rỡ tại Miss Universe 2020, Khánh Vân và CEO Bảo Hoàng đã từ Mỹ trở về Việt Nam vào đầu tháng 6/2021. Trước tình hình diễn biến phức tạp của dịch bệnh Covid-19 nên vừa về Việt Nam, Khánh
+                            Vân đã phải thực hiện cách ly tập trung 21 ngày theo đúng quy định.</p>
+
+                        <p>Cho đến sáng nay (ngày 30/6), Khánh Vân và CEO Bảo Hoàng đã chính thức hoàn thành chuỗi ngày cách ly và rời Hà Nội để bay về TP.HCM đoàn tụ gia đình. Được biết, cả hai sẽ tiếp tục theo dõi sức khoẻ tại gia trong vòng ít ngày tới.
+                            Trên Facebook cá nhân, top 21 Miss Universe 2020 đã có màn ăn mừng bằng bộ ảnh "sống ảo" khoe visual xinh đẹp, rạng rỡ và tràn đầy năng lượng. Ngoài ra, nàng hậu còn tranh thủ tạo dáng khoe khéo chiếc túi hiệu sau khi hoàn
+                            thành cách ly. Khánh Vân cho biết đêm qua cô đã ngủ rất ngon vì vui mừng khi sắp về TP.HCM gặp lại người thân sau hơn 2 tháng xa cách.</p>
+                        <div class="img-in-txt">
+                            <img src="../img/image 33 (1).png" alt="">
+                        </div>
+
+
+
+                    </div>
+                    <div class="related-link">
+                        <a href="">>> Dàn Hoa hậu ngoan hiền Vbiz "phá kén" hở bạo: Mai Phương Thuý - Tiểu Vy phô triệt để vòng 1, Khánh Vân và Đỗ Hà lột xác bất ngờ
+                        </a>
+                    </div>
+                    <div class="cmt-box">
+                        <h3>Bình Luận Của Bạn</h3>
+                        <form action="" id="cmt-form" class="row justify-content-md-between">
+                            <div class="col-md-6">
+                                <input type="text" id="name" placeholder="Họ và Tên">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" id="email" placeholder="Email">
+                            </div>
+
+                            <div class="col-12">
+                                <textarea class="col-12" name="comment" id="comment" placeholder="Bình luận"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <input class="submit-btn" type="submit" value="Gửi">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Bootstrap 4 Script-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <!---->
+    <script src="../lib/JQuery3.3.1.js"></script>
+    <script src="../owlcarousel/owl.carousel.min.js"></script>
+    <script src="../js/slideMobile.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+
+</html>

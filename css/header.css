@@ -1,0 +1,235 @@
+header.container {
+    background-color: #94B289;
+    min-width: 100%;
+    height: 73px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 73px;
+    position: relative;
+    z-index: 2;
+}
+
+header .row {
+    height: 73px;
+}
+
+.logo-wrapper,
+.menu-wrapper {
+    display: flex;
+}
+
+.logo-wrapper {
+    justify-content: center;
+}
+
+.menu-wrapper {
+    justify-content: space-between;
+}
+
+.menu-link {
+    margin: auto;
+}
+
+.menu-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.cirle-wrap {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 3px solid #94B289;
+    background-color: white;
+    top: -80%;
+}
+
+.logo-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    border-radius: 50%;
+}
+
+.collapse-evr {
+    position: relative;
+}
+
+.collapse-box {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 17%);
+    background: rgba(148, 178, 137, 0.49);
+    width: 195px;
+    padding: 1rem;
+}
+
+.collapse-box a {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.collapse-box a:hover {
+    background: rgba(148, 178, 137, 0.49);
+}
+
+.multil-links {
+    display: flex;
+}
+
+.search-wrapper {
+    position: relative;
+}
+
+.search-wrapper button {
+    background-color: transparent;
+    border: none;
+    transform: translateY(13%);
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+button svg {
+    height: 20px;
+    width: 27px;
+}
+
+.search-wrapper button:focus,
+.search-wrapper button:active {
+    background: rgba(255, 255, 255, 0.2);
+    /* here configure as your needs */
+}
+
+.multil-links a {
+    margin-left: 0.5rem;
+}
+
+.search-box {
+    position: absolute;
+    left: 50%;
+    transform: translate(-80%, 60%);
+}
+
+.search-box input {
+    padding: 0.4rem 3rem;
+    font-size: 1.4rem;
+}
+
+hr {
+    margin: 3% auto;
+    height: 1px;
+    width: 50%;
+    background-color: white;
+}
+
+.mobile,
+.mobile ul {
+    display: none;
+}
+
+@media(max-width:1180px) {
+    .menu-link a,
+    .sub-menu-mb a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.6vw;
+    }
+}
+
+@media (max-width:780px) {
+    .menu-link a,
+    .sub-menu-mb a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 2.5vw;
+    }
+    header.container {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        margin-top: 0;
+    }
+    .mobile {
+        display: block;
+    }
+    .cirle-wrap {
+        position: relative;
+        top: 0;
+        display: block;
+        height: 100%;
+    }
+    header .row,
+    header.container {
+        height: auto!important;
+        justify-content: space-between;
+    }
+    .menu-wrapper {
+        display: none;
+    }
+    .cirle-wrap {
+        transform: none;
+        width: 90px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cirle-wrap img {
+        object-fit: scale-down;
+        width: 80%;
+        height: 80%;
+        border-radius: 0;
+    }
+    .logo-wrapper {
+        justify-content: flex-start;
+    }
+    .toggle-button-mb {
+        display: flex;
+        align-items: center;
+        margin-right: 2rem;
+    }
+    .toggle-button-mb svg {
+        width: 36px;
+        height: 36px;
+        color: teal;
+    }
+    .mobile-links {
+        display: none;
+    }
+    .mobile-links ul {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+    .sub-menu-wrapper {
+        display: none;
+    }
+    .sub-menu-mb {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    /* .sub-menu-mb a {
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+    } */
+    .logo {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        max-height: 100%!important;
+        max-width: 100%!important;
+    }
+}
